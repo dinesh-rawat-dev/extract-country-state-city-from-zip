@@ -1,0 +1,33 @@
+{
+  "name": "extract-country-state-city-from-zip1",
+  "version": "1.0.1",
+  "description": "This package extracts country, state and city from any zip code, user need to provide zip code and google api access key",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dinesh-rawat/extract-country-state-city-from-zip.git"
+  },
+  "keywords": [
+    "google",
+    "api",
+    "get",
+    "country",
+    "state",
+    "city",
+    "from",
+    "zip",
+    "get",
+    "location",
+    "by",
+    "zip"
+  ],
+  "author": "Dinesh Rawat",
+  "license": "ISC",
+  "dependencies": {
+    "extract-country-state-city-from-zip": "^1.0.1",
+    "node-fetch": "^2.6.0"
+  }
+}
