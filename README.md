@@ -4,28 +4,16 @@
 npm i extract-country-state-city-from-zip
 
 ```
-var getAdderss = require('extract-country-state-city-from-zip');
+var getAddress = require('extract-country-state-city-from-zip');
 
-getAdderss(248001, 'AIzaSyDqZ5w4dZlSKCEnARbMsSQH353P8KAHi54',
+getAddress(248001, 'AIzaSyDqZ5w4dZlSKCEnARbMsSQH353P8KAHi54',
 (err, res) => console.log(err, res))
 ```
 
 ## Result
 
 ```
-{
-  results: [
-    {
-      address_components: [Array],
-      formatted_address: 'Uttarakhand 248001, India',
-      geometry: [Object],
-      place_id: 'ChIJAVAhzUYoCTkRmAQ1wWM_p1o',
-      types: [Array]
-    }
-  ],
-  status: 'OK'
-}
-null {
+ {
   city: { long: 'Dehradun', short: 'Dehradun' },
   state: { long: 'Uttarakhand', short: 'UK' },
   country: { long: 'India', short: 'IN' },

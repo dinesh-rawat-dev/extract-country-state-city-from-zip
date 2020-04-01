@@ -1,6 +1,6 @@
 {
   "name": "extract-country-state-city-from-zip",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This package extracts country, state and city from any zip code, user need to provide zip code and google api access key",
   "main": "index.js",
   "scripts": {
